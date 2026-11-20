@@ -14,4 +14,8 @@ a{color:#e8a33d}
 .kicker{font:700 13px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin:0}
 .muted{color:var(--muted)}
 .btn{display:inline-block;background:var(--red);color:#fff;padding:10px 18px;text-decoration:none;font:700 14px Arial,sans-serif;letter-spacing:.08em}
+.yt-note{display:flex;gap:14px;align-items:center;border:1px solid var(--line);padding:14px 16px;margin:28px 0;font:15px/1.5 Arial,sans-serif}
+.yt-badge{display:inline-flex;align-items:center;gap:6px;font:700 15px Arial,sans-serif;color:#fff;white-space:nowrap}
+.yt-play{width:26px;height:18px;background:#ff0000;border-radius:5px;position:relative;display:inline-block}
+.yt-play::after{content:"";position:absolute;left:10px;top:5px;border-left:8px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent}
 footer{border-top:1px solid var(--line);color:var(--muted);font:13px Arial,sans-serif;padding:20px 0}
